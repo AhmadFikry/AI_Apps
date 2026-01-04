@@ -2,6 +2,6 @@ streamlit
 PyPDF2
 python-dotenv
 openai
-crewai
+crewai[google-genai]
 crewai-tools
 python-docx
