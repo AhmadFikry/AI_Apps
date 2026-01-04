@@ -3,3 +3,5 @@ PyPDF2
 python-dotenv
 openai
 crewai
+crewai-tools
+python-docx
