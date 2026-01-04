@@ -99,7 +99,7 @@ if uploaded_file and cerebras_key:
 
                 t2 = Task(
                     description="Take the findings and write a 3-step negotiation email for the largest hike.",
-                    expected_output="A full, professional negotiation script.",
+                    expected_output="A full, professional negotiation script.Ensure the final script uses proper spacing, especially between numbers, currencies, and the start of new sentences",
                     agent=negotiator,
                     context=[t1]
                 )
@@ -123,4 +123,5 @@ if uploaded_file and cerebras_key:
             if os.path.exists(tmp_path):
                 os.remove(tmp_path)
 else:
+
     st.info("💡 Tip: Your CSV should have 'date', 'merchant', and 'amount' columns.")
