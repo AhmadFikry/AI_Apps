@@ -1,5 +1,6 @@
 streamlit
 pandas
-crewai[tools]==0.28.8
-litellm==1.31.1
-cerebras_cloud_sdk
+crewai
+litellm
+cerebras-cloud-sdk
+
