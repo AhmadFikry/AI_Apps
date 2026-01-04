@@ -99,7 +99,7 @@ if uploaded_file and cerebras_key:
 
                 t2 = Task(
                     description="Take the findings and write a 3-step negotiation email for the largest hike.",
-                    expected_output="A full, professional negotiation script.Ensure the final script follows professional business letter formatting with clear spacing between currency symbols, numbers, and the start of new sentences.",
+                    expected_output="A professional business letter with clear paragraph breaks and standard spacing between currencies and values.",
                     agent=negotiator,
                     context=[t1]
                 )
@@ -125,4 +125,5 @@ if uploaded_file and cerebras_key:
 else:
 
     st.info("💡 Tip: Your CSV should have 'date', 'merchant', and 'amount' columns.")
+
 
